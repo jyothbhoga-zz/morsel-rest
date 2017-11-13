@@ -1,0 +1,231 @@
+            .strip .button {
+                background-color: #18ba60;
+                border: none;
+                color: white;
+                padding: 15px 28px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: -1px px;
+                cursor: pointer;
+                float: right;
+            }
+            
+            .strip {
+                background: #3b526b;
+                color: #ffffff;
+            }
+            
+            .strip ul {
+                margin-left: -60px;
+            }
+            
+            .strip ul li {
+                display: inline-flex;
+                margin-top: 12px;
+            }
+            
+            .strip i {
+                color: #18ba60;
+                font-size: 15px;
+                padding-left: 8px;
+                padding-right: 10px;
+                padding-top: 5px;
+            }
+            
+            .strip p {
+                margin: 5px 0px 7px 0;
+                font-size: 13px;
+            }
+            
+            .affix {
+                top: 0;
+                width: 100%;
+                background: white;
+                z-index: 1000;
+                border-bottom: none;
+            }
+            
+            .header .navbar {
+                background: white;
+                border: none;
+                border-bottom: 3px solid grey;
+                height: 100px;
+            }
+            
+            .header .navbar img {
+                max-width: 165px;
+                margin-top: 10px;
+                margin-left: -10px;
+            }
+            
+            .header .navbar {
+                margin-bottom: 0px;
+            }
+            
+            .header .navbar ul {
+                margin-top: 12px;
+            }
+            
+            .header .navbar ul.nav li a {
+                color: #3b3b3b;
+            }
+            
+            .header .navbar ul.nav li a:hover {
+                color: #18ba60;
+                background: #ffffff;
+            }
+            
+            .header .navbar ul.nav li a:active {
+                background: #ffffff;
+            }
+            
+            .navbar-inverse .navbar-nav>.open>a,
+            .navbar-inverse .navbar-nav>.open>a:focus,
+            .navbar-inverse .navbar-nav>.open>a:hover {
+                background-color: #ffffff;
+                color: #18ba60;
+            }
+            
+            .slider .carousel img {
+                height: 505px;
+                background-size: cover;
+            }
+            
+            .slider .carousel a.left {
+                background-image: none;
+                margin-top: 205px;
+                font-size: 60px;
+            }
+            
+            .slider .carousel a.right {
+                background-image: none;
+                margin-top: 205px;
+                font-size: 60px;
+            }
+            
+            .slider .carousel-control {
+                width: 3%
+            }
+            
+            .slider .carousel-caption {
+                left: 5%;
+                right: 40%;
+                top: 20%;
+                text-align: left;
+            }
+            
+            .slider .carousel-caption h2 {
+                font-size: 45px;
+                line-height: 150%;
+                font-weight: lighter;
+                color: #fff;
+                position: relative;
+                animation: mymove 2s;
+                animation-timing-function: ease;
+            }
+            
+            @keyframes mymove {
+                from {
+                    top: -1000px;
+                }
+                to {
+                    top: 0px;
+                }
+            }
+            
+            .slider .carousel-caption p {
+                line-height: 25px;
+                font-size: 20px;
+                position: relative;
+                animation: mymove 2s;
+                animation-timing-function: ease;
+            }
+            
+            .slider .button {
+                background-color: #18ba60;
+                border: none;
+                color: white;
+                padding: 12px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: -1px px;
+                cursor: pointer;
+                float: left;
+                border-radius: 4px;
+                position: absolute;
+                top: 0%;
+                position: relative;
+                animation: mymove 2s;
+                animation-timing-function: ease;
+            }
+            
+            .slider .carousel-indicators {
+                bottom: 0px;
+            }
+            
+            .slider .carousel-indicators li {
+                background-color: rgba(255, 255, 255, .5);
+                border: none;
+                margin-right: 6px;
+            }
+            
+            .slider .carousel-indicators .active {
+                background-color: #ffffff;
+                border: none;
+            }
+            
+            .home .homecontent {
+                text-align: center;
+                margin-top: 100px;
+            }
+            
+            .home .wrapper {
+                border: 1px solid #e6e6e6;
+                border-radius: 10px;
+                margin-top: 60px;
+                color: #3b3b3b;
+                padding-bottom: 20px;
+            }
+            
+            .home .wrapper .icon {
+                height: 175px;
+                float: left;
+            }
+            
+            .home .wrapper img {
+                max-width: 42px;
+                margin: 30px 20px 0px 20px;
+            }
+            
+            .home .wrapper h4 {
+                margin-top: 15px;
+            }
+            
+            .home .text a {
+                color: #18ba60;
+                font-weight: bolder;
+            }
+            
+            .home .text a:hover {
+                color: #000;
+                text-decoration: none;
+                font-weight: bolder;
+            }
+            
+            .home .homecontent p {
+                color: #b1b1b1;
+                width: 57%;
+                text-align: center;
+                display: block;
+                margin: auto;
+                line-height: 25px;
+            }
+            
+            .home .wrapper .text p {
+                color: #909090;
+                line-height: 25px;
+            }
